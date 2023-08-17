@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><fastfood>
+  <restaurant>
+    <name>FastBurger</name>
+    <menu>
+      <item>
+        <name>Cheeseburger</name>
+        <price>$4.99</price>
+      </item>
+      <item>
+        <name>Fries</name>
+        <price>$2.49</price>
+      </item>
+      <item>
+        <name>Chicken Nuggets</name>
+        <price>$3.99</price>
+      </item>
+    </menu>
+    <location>
+      <address>123 Main Street</address>
+      <city>New York</city>
+      <country>USA</country>
+    </location>
+  </restaurant>
+  
+  <restaurant>
+    <name>QuickBite</name>
+    <menu>
+      <item>
+        <name>Double Cheeseburger</name>
+        <price>$5.99</price>
+      </item>
+      <item>
+        <name>Onion Rings</name>
+        <price>$2.99</price>
+      </item>
+      <item>
+        <name>Chicken Sandwich</name>
+        <price>$4.49</price>
+      </item>
+    </menu>
+    <location>
+      <address>456 Elm Street</address>
+      <city>Los Angeles</city>
+      <country>USA</country>
+    </location>
+  </restaurant>
+  
+  <restaurant>
+    <name>TastyBites</name>
+    <menu>
+      <item>
+        <name>Classic Burger</name>
+        <price>$4.49</price>
+      </item>
+      <item>
+        <name>Curly Fries</name>
+        <price>$2.99</price>
+      </item>
+      <item>
+        <name>Spicy Chicken Wrap</name>
+        <price>$4.99</price>
+      </item>
+    </menu>
+    <location>
+      <address>789 Oak Street</address>
+      <city>Chicago</city>
+      <country>USA</country>
+    </location>
+  </restaurant>
+</fastfood>

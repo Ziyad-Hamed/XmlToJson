@@ -1,0 +1,13 @@
+CREATE COMPUTE MODULE xml_json_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE JsonOutput REFERENCE TO OutputRoot.JSON;
+		DECLARE XmlInput REFERENCE TO InputRoot.XMLNSC;
+-- Transform XML to JSON using ESQL
+SET JsonOutput.Data = CAST(XmlInput AS JSON);
+
+-- Set the MQMD format to pass the JSON content
+SET OutputRoot.MQMD.Format = MQFMT_JSON;
+	    Return True;
+	END;
+END MODULE;

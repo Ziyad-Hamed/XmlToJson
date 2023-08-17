@@ -1,0 +1,34 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+BEGIN
+    DECLARE refInput REFERENCE TO InputRoot.XMLNSC;
+    DECLARE refOutput REFERENCE TO OutputRoot.JSON;
+
+    -- Transform XML to JSON manually
+    SET refOutput = JSON('{}');
+
+    FOR reffastfood AS refInput.*:fastfood[] DO
+        SET refOutput.fastfood[-1] = JSON('{}');
+        SET refOutput.fastfood[-1].'name' = reffastfood.name;
+
+        SET refOutput.fastfood[-1].'menu' = JSONARRAY();
+
+        FOR refItem AS reffastfood.menu.item[] DO
+            DECLARE item JSON;
+            SET item = JSON('{}');
+            SET item.'name' = refItem.name;
+            SET item.'price' = refItem.price;
+            CALL append(refOutput.fastfood[-1].'menu', item);
+        END FOR;
+    END FOR;
+
+    RETURN TRUE;
+END;
+
+CREATE PROCEDURE CopyMessageHeaders() BEGIN
+    SET OutputRoot = InputRoot;
+END;
+
+CREATE PROCEDURE CopyEntireMessage() BEGIN
+    SET OutputRoot = InputRoot;
+END;
+

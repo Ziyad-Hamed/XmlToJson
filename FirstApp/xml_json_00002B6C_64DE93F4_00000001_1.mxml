@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageAssembly iib:parser="GENERICROOT" xmlns:iib="http://com.ibm.iib/lt/1.0">
+   <version xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">1</version>
+   <checkpoint>
+      <messageId xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">00002B6C-64DE93F4-00000001</messageId>
+      <propagationCount xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">1</propagationCount>
+      <nodeCallDepth xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">2</nodeCallDepth>
+      <timestamp xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="TIMESTAMP">2023-08-17 21:41:08.274</timestamp>
+      <source>
+         <name xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Compute</name>
+         <identifier xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">xml_json#FCMComposite_1_6</identifier>
+         <type xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ComIbmComputeNode</type>
+         <terminal xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">out</terminal>
+         <nodePath>
+            <application xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">FirstApp</application>
+            <messageFlow xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">xml_json</messageFlow>
+            <node xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Compute</node>
+         </nodePath>
+         <inputNode xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="BOOLEAN">FALSE</inputNode>
+      </source>
+      <target>
+         <name xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">MQ Output</name>
+         <identifier xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">xml_json#FCMComposite_1_2</identifier>
+         <type xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ComIbmMQOutputNode</type>
+         <terminal xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">in</terminal>
+         <nodePath>
+            <application xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">FirstApp</application>
+            <messageFlow xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">xml_json</messageFlow>
+            <node xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">MQ Output</node>
+         </nodePath>
+      </target>
+   </checkpoint>
+   <environment/>
+   <localEnvironment/>
+   <exceptionList/>
+   <message xmlns:iib="http://com.ibm.iib/lt/1.0" iib:parser="MQROOT">
+      <Properties iib:parser="MQPROPERTYPARSER">
+         <MessageSet iib:elementType="0x03000000"/>
+         <MessageType iib:elementType="0x03000000"/>
+         <MessageFormat iib:elementType="0x03000000"/>
+         <Encoding iib:elementType="0x03000000"/>
+         <CodedCharSetId iib:elementType="0x03000000"/>
+         <Transactional iib:elementType="0x03000000"/>
+         <Persistence iib:elementType="0x03000000"/>
+         <CreationTime iib:elementType="0x03000000"/>
+         <ExpirationTime iib:elementType="0x03000000"/>
+         <Priority iib:elementType="0x03000000"/>
+         <ReplyIdentifier iib:elementType="0x03000000"/>
+         <ReplyProtocol iib:valueType="CHARACTER">MQ</ReplyProtocol>
+         <Topic iib:elementType="0x03000000"/>
+         <ContentType iib:elementType="0x03000000"/>
+         <IdentitySourceType iib:elementType="0x03000000"/>
+         <IdentitySourceToken iib:elementType="0x03000000"/>
+         <IdentitySourcePassword iib:elementType="0x03000000"/>
+         <IdentitySourceIssuedBy iib:elementType="0x03000000"/>
+         <IdentityMappedType iib:elementType="0x03000000"/>
+         <IdentityMappedToken iib:elementType="0x03000000"/>
+         <IdentityMappedPassword iib:elementType="0x03000000"/>
+         <IdentityMappedIssuedBy iib:elementType="0x03000000"/>
+      </Properties>
+      <JSON iib:parser="json">
+         <Data>
+            <fastfood>
+               <restaurant>
+                  <name iib:valueType="CHARACTER">FastBurger</name>
+                  <menu>
+                     <item>
+                        <name iib:valueType="CHARACTER">Cheeseburger</name>
+                        <price iib:valueType="CHARACTER">$4.99</price>
+                     </item>
+                     <item>
+                        <name iib:valueType="CHARACTER">Fries</name>
+                        <price iib:valueType="CHARACTER">$2.49</price>
+                     </item>
+                     <item>
+                        <name iib:valueType="CHARACTER">Chicken Nuggets</name>
+                        <price iib:valueType="CHARACTER">$3.99</price>
+                     </item>
+                  </menu>
+                  <location>
+                     <address iib:valueType="CHARACTER">123 Main Street</address>
+                     <city iib:valueType="CHARACTER">New York</city>
+                     <country iib:valueType="CHARACTER">USA</country>
+                  </location>
+               </restaurant>
+               <restaurant>
+                  <name iib:valueType="CHARACTER">QuickBite</name>
+                  <menu>
+                     <item>
+                        <name iib:valueType="CHARACTER">Double Cheeseburger</name>
+                        <price iib:valueType="CHARACTER">$5.99</price>
+                     </item>
+                     <item>
+                        <name iib:valueType="CHARACTER">Onion Rings</name>
+                        <price iib:valueType="CHARACTER">$2.99</price>
+                     </item>
+                     <item>
+                        <name iib:valueType="CHARACTER">Chicken Sandwich</name>
+                        <price iib:valueType="CHARACTER">$4.49</price>
+                     </item>
+                  </menu>
+                  <location>
+                     <address iib:valueType="CHARACTER">456 Elm Street</address>
+                     <city iib:valueType="CHARACTER">Los Angeles</city>
+                     <country iib:valueType="CHARACTER">USA</country>
+                  </location>
+               </restaurant>
+               <restaurant>
+                  <name iib:valueType="CHARACTER">TastyBites</name>
+                  <menu>
+                     <item>
+                        <name iib:valueType="CHARACTER">Classic Burger</name>
+                        <price iib:valueType="CHARACTER">$4.49</price>
+                     </item>
+                     <item>
+                        <name iib:valueType="CHARACTER">Curly Fries</name>
+                        <price iib:valueType="CHARACTER">$2.99</price>
+                     </item>
+                     <item>
+                        <name iib:valueType="CHARACTER">Spicy Chicken Wrap</name>
+                        <price iib:valueType="CHARACTER">$4.99</price>
+                     </item>
+                  </menu>
+                  <location>
+                     <address iib:valueType="CHARACTER">789 Oak Street</address>
+                     <city iib:valueType="CHARACTER">Chicago</city>
+                     <country iib:valueType="CHARACTER">USA</country>
+                  </location>
+               </restaurant>
+            </fastfood>
+         </Data>
+      </JSON>
+   </message>
+</MessageAssembly>

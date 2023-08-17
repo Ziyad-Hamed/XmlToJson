@@ -1,0 +1,12 @@
+
+
+CREATE COMPUTE MODULE xml_json_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		 DECLARE refInput REFERENCE TO InputRoot.XMLNSC.fastfood;
+		 CREATE FIELD OutputRoot.JSON.Data.fastfood;
+		 
+
+
+	END;
+END MODULE;

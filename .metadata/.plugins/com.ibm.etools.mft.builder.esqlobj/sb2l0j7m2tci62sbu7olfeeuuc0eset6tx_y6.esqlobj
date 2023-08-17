@@ -1,0 +1,7 @@
+CREATE COMPUTE MODULE xml_json_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+	-- Transform XML to JSON
+	    SET OutputRoot.JSON.Data = CAST(InputRoot.XMLNSC AS JSON);
+	END;
+END MODULE;

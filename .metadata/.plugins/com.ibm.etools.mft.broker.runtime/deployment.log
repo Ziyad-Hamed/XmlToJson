@@ -1,0 +1,76 @@
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692302388455
+BIP9332I<<Application 'FirstApp' has been created successfully. <<1692302388455
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692302388455
+FirstApp>>ACENODE2>>server1>>WARNING>>1692305360002
+BIP9318E<<Request to 'PreSetupValidate' resource 'FirstApp', 'FirstApp' of type 'Application' failed. <<1692305360002
+BIP2432E<<(.xml_json_Compute.Main, 9.38) : The correlation name 'OBJECT' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, refInput, refOutput. <<1692305360002
+BIP9333W<<Application 'FirstApp' has been changed but contains errors which has prevented some resources from starting. <<1692305360002
+BIP1096E<<The source 'FirstAppproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1692305360002
+FirstApp>>ACENODE2>>server1>>WARNING>>1692305641517
+BIP9318E<<Request to 'PreSetupValidate' resource 'FirstApp', 'FirstApp' of type 'Application' failed. <<1692305641517
+BIP2432E<<(.xml_json_Compute.Main, 9.38) : The correlation name 'OBJECT' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, refInput, refOutput. <<1692305641517
+BIP9333W<<Application 'FirstApp' has been changed but contains errors which has prevented some resources from starting. <<1692305641517
+BIP1096E<<The source 'FirstAppproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1692305641517
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307086960
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307086960
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692307086960
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307184186
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307184186
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692307184186
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307201179
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307201179
+BIP9326I<<The source 'FirstAppproject.TestMode.bar' has been successfully deployed. <<1692307201179
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307324554
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307324554
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692307324554
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307645176
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307645176
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692307645176
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307658006
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307658006
+BIP9326I<<The source 'FirstAppproject.TestMode.bar' has been successfully deployed. <<1692307658006
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307756344
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307756344
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692307756344
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307779671
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307779671
+BIP9326I<<The source 'FirstAppproject.TestMode.bar' has been successfully deployed. <<1692307779671
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307852545
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307852545
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692307852545
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307883765
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307883765
+BIP9326I<<The source 'FirstAppproject.TestMode.bar' has been successfully deployed. <<1692307883765
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692307928450
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692307928450
+BIP9326I<<The source 'FirstAppproject.TestMode.bar' has been successfully deployed. <<1692307928450
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692308006653
+BIP9332I<<Application 'FirstApp' has been created successfully. <<1692308006653
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692308006653
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692308012276
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692308012276
+BIP9326I<<The source 'FirstAppproject.TestMode.bar' has been successfully deployed. <<1692308012276
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692308150712
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692308150712
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692308150712
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692308167804
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692308167804
+BIP9326I<<The source 'FirstAppproject.TestMode.bar' has been successfully deployed. <<1692308167804
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692308400808
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692308400808
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692308400808
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692308426252
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692308426252
+BIP9326I<<The source 'FirstAppproject.TestMode.bar' has been successfully deployed. <<1692308426252
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692309199867
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692309199867
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692309199867
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692309222722
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692309222722
+BIP9326I<<The source 'FirstAppproject.TestMode.bar' has been successfully deployed. <<1692309222722
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692309319972
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692309319972
+BIP9326I<<The source 'FirstAppproject.generated.bar' has been successfully deployed. <<1692309319972
+FirstApp>>ACENODE2>>server1>>SUCCESS>>1692309332660
+BIP9332I<<Application 'FirstApp' has been changed successfully. <<1692309332660
+BIP9326I<<The source 'FirstAppproject.TestMode.bar' has been successfully deployed. <<1692309332660

@@ -1,0 +1,8 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+
+		CREATE LASTCHILD OF OutputRoot.DOMAIN('JSON');
+		CREATE FIELD OutputRoot.JSON.Data;
+		
+	    Return True;
+	END;

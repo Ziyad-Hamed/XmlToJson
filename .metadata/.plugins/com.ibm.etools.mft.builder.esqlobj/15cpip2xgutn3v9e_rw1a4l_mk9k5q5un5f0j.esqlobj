@@ -1,0 +1,6 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+	-- Transform XML to JSON
+SET OutputRoot.JSON.Data = CAST(InputRoot.XMLNSC AS JSON);
+	    Return True;
+	END;

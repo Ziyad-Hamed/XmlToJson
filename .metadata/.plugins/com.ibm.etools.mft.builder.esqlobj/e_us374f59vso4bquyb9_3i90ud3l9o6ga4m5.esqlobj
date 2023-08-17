@@ -1,0 +1,11 @@
+CREATE COMPUTE MODULE xml_json_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE InputXML REFERENCE TO InputRoot.XMLNSC;
+		DECLARE OutputJSON REFERENCE TO OutputRoot.JSON;
+		
+		-- Transform XML to JSON
+		SET OutputJSON = XMLToJSON(InputXML);
+	    Return True;
+	END;
+END MODULE;

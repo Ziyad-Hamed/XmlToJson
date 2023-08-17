@@ -1,0 +1,8 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		 DECLARE refInput REFERENCE TO InputRoot.XMLNSC.fastfood;
+		 CREATE FIELD OutputRoot.JSON.Data.fastfood;
+		 DECLARE refOutput REFERENCE TO 
+
+
+	END;

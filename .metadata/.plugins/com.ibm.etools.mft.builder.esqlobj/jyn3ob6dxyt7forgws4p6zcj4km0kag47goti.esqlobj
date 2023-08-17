@@ -1,0 +1,4 @@
+CREATE COMPUTE MODULE xml_json_Compute
+
+-- Transform XML to JSON
+CREATE FUNCTION Main() RETURNS BOOLEAN

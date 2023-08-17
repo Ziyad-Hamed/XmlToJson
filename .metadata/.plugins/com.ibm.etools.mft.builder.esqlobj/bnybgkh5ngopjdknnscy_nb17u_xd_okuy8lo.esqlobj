@@ -1,0 +1,6 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		 DECLARE refInput REFERENCE TO InputRoot.XMLNSC.Books;
+
+
+	END;

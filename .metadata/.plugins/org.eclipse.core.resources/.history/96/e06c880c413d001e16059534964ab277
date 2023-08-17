@@ -1,0 +1,41 @@
+CREATE COMPUTE MODULE xml_json_Compute
+
+-- Transform XML to JSON
+CREATE FUNCTION Main() RETURNS BOOLEAN
+BEGIN
+    DECLARE refInput REFERENCE TO InputRoot.XMLNSC;
+    DECLARE refOutput REFERENCE TO OutputRoot.JSON;
+
+    -- Transform XML to JSON manually
+    SET refOutput = '{}';
+
+    SET refOutput.'fastfood' = JSONARRAY();
+
+    FOR reffastfood AS refInput.*:fastfood[] DO
+        DECLARE restaurant JSON;
+        SET restaurant = JSON();
+
+        SET restaurant.'name' = reffastfood.name;
+
+        SET restaurant.'menu' = JSONARRAY();
+        FOR refItem AS reffastfood.menu.item[] DO
+            DECLARE item JSON;
+            SET item = JSON();
+            SET item.'name' = refItem.name;
+            SET item.'price' = refItem.price;
+            CALL append(refOutput.'fastfood', restaurant);
+        END FOR;
+    END FOR;
+
+    RETURN TRUE;
+END;
+
+CREATE PROCEDURE CopyMessageHeaders() BEGIN
+    SET OutputRoot = InputRoot;
+END;
+
+CREATE PROCEDURE CopyEntireMessage() BEGIN
+    SET OutputRoot = InputRoot;
+END;
+
+END MODULE;

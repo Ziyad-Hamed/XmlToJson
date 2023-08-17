@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="xml_jsoon">
+  <XSDCollection href="platform:/resource/xml_jsoon/FirstApp.xsd" prefix="" targetNamespace="">
+    <element href="platform:/resource/xml_jsoon/FirstApp.xsd#//country;XSDElementDeclaration" name="country" type="mlib://xml_jsoon#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/xml_jsoon/FirstApp.xsd#//item;XSDElementDeclaration=1" name="item"/>
+    <element href="platform:/resource/xml_jsoon/FirstApp.xsd#//address;XSDElementDeclaration=2" name="address" type="mlib://xml_jsoon#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/xml_jsoon/FirstApp.xsd#//city;XSDElementDeclaration=3" name="city" type="mlib://xml_jsoon#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/xml_jsoon/FirstApp.xsd#//price;XSDElementDeclaration=4" name="price" type="mlib://xml_jsoon#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/xml_jsoon/FirstApp.xsd#//restaurant;XSDElementDeclaration=5" name="restaurant"/>
+    <element href="platform:/resource/xml_jsoon/FirstApp.xsd#//name;XSDElementDeclaration=6" name="name" type="mlib://xml_jsoon#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/xml_jsoon/FirstApp.xsd#//location;XSDElementDeclaration=7" name="location"/>
+    <element href="platform:/resource/xml_jsoon/FirstApp.xsd#//menu;XSDElementDeclaration=8" name="menu"/>
+    <element href="platform:/resource/xml_jsoon/FirstApp.xsd#//fastfood;XSDElementDeclaration=9" name="fastfood"/>
+  </XSDCollection>
+</MessageBroker>
